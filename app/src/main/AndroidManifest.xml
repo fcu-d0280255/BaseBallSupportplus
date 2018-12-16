@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kaixshaun.baseballsupport">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Key_The_Away_Team_List" />
+        <activity android:name=".NewGameName" />
+        <activity android:name=".Key_The_Home_Team_List" />
+        <activity android:name=".Away_Team_Bench_List" />
+        <activity android:name=".Home_Team_Bench_List" />
+        <activity android:name=".GameRecording" />
+        <activity android:name=".PlayRecording" />
+        <activity android:name=".GameFinalData" />
+        <activity android:name=".ShowTeamList" />
+        <activity android:name=".ShowRecommandList" />
+        <activity android:name=".Secret" />
+        <activity android:name=".ShowGameList" />
+        <activity android:name=".ShowGameData" />
+        <activity android:name=".EnemyList" />
+        <activity android:name=".ShowODStrategy" />
+        <activity android:name=".GameSecret"></activity>
+    </application>
+
+</manifest>
